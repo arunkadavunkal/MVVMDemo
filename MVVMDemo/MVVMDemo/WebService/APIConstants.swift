@@ -8,5 +8,6 @@
 import Foundation
 
 struct APIConstants {
-    static let baseURL = ""
+    static let baseURL = "https://mocki.io/v1/"
 }
+

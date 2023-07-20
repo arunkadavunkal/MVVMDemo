@@ -8,5 +8,5 @@
 import Foundation
 
 enum EndPoint: String {
-    case products = ""
+    case products = "f1a4db4b-c3ce-4bcf-838b-8548ee7db6d0"
 }
