@@ -17,6 +17,10 @@
 		1F105DA92A69266600BBF0FE /* MVVMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F105DA82A69266600BBF0FE /* MVVMDemoUITests.swift */; };
 		1F105DAB2A69266600BBF0FE /* MVVMDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F105DAA2A69266600BBF0FE /* MVVMDemoUITestsLaunchTests.swift */; };
 		1F105DBF2A692A9300BBF0FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F105DBE2A692A9300BBF0FE /* Constants.swift */; };
+		1F105DC22A692D3A00BBF0FE /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F105DC12A692D3A00BBF0FE /* WebServiceManager.swift */; };
+		1F105DC42A692D7200BBF0FE /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F105DC32A692D7200BBF0FE /* EndPoints.swift */; };
+		1F105DC62A692DEE00BBF0FE /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F105DC52A692DEE00BBF0FE /* APIConstants.swift */; };
+		1F105DC82A692E3C00BBF0FE /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F105DC72A692E3C00BBF0FE /* CustomError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		1F105DA82A69266600BBF0FE /* MVVMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMDemoUITests.swift; sourceTree = "<group>"; };
 		1F105DAA2A69266600BBF0FE /* MVVMDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1F105DBE2A692A9300BBF0FE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F105DC12A692D3A00BBF0FE /* WebServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		1F105DC32A692D7200BBF0FE /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		1F105DC52A692DEE00BBF0FE /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		1F105DC72A692E3C00BBF0FE /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,7 @@
 			children = (
 				1F105DBA2A69283100BBF0FE /* ProductsList */,
 				1F105DBD2A692A7D00BBF0FE /* Utils */,
+				1F105DC02A692D0F00BBF0FE /* WebService */,
 				1F105D872A69266200BBF0FE /* AppDelegate.swift */,
 				1F105D892A69266200BBF0FE /* SceneDelegate.swift */,
 				1F105D902A69266600BBF0FE /* Assets.xcassets */,
@@ -174,8 +183,19 @@
 			isa = PBXGroup;
 			children = (
 				1F105DBE2A692A9300BBF0FE /* Constants.swift */,
+				1F105DC72A692E3C00BBF0FE /* CustomError.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		1F105DC02A692D0F00BBF0FE /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				1F105DC12A692D3A00BBF0FE /* WebServiceManager.swift */,
+				1F105DC32A692D7200BBF0FE /* EndPoints.swift */,
+				1F105DC52A692DEE00BBF0FE /* APIConstants.swift */,
+			);
+			path = WebService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,9 +329,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F105DC22A692D3A00BBF0FE /* WebServiceManager.swift in Sources */,
+				1F105DC82A692E3C00BBF0FE /* CustomError.swift in Sources */,
+				1F105DC62A692DEE00BBF0FE /* APIConstants.swift in Sources */,
 				1F105D8C2A69266200BBF0FE /* ProductListViewController.swift in Sources */,
 				1F105D882A69266200BBF0FE /* AppDelegate.swift in Sources */,
 				1F105D8A2A69266200BBF0FE /* SceneDelegate.swift in Sources */,
+				1F105DC42A692D7200BBF0FE /* EndPoints.swift in Sources */,
 				1F105DBF2A692A9300BBF0FE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
